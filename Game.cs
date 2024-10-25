@@ -15,7 +15,7 @@ namespace hangman
         public Game(string word)
         {
             chosenWord = word;
-            guessedWord = new String('*', chosenWord.Length).ToCharArray(); // har brugt stjerner fordi underscores rammer hinanden som gør at man ik kan se antallet af ord, og man kan ik have mellemrumussa
+            guessedWord = new String('*', chosenWord.Length).ToCharArray(); // har brugt stjerner fordi underscores rammer hinanden som gør at man ik kan se antallet af bogstaver, og man kan ik have mellemrumussa
             attemptsLeft = 12; //
 
         }
